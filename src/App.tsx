@@ -138,7 +138,7 @@ function App() {
             className="cursor-pointer hover:scale-[101%] transform transition duration-500 ease-in-out"
           />
         </div>
-        <div className="px-10 my-5">
+        <div className=" bg-white/50 px-10 my-5">
           <img
             src="https://images.unsplash.com/photo-1538471726790-0f6b031f1982?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
             alt="street"
@@ -177,6 +177,58 @@ function App() {
             />
           </div>
         </div>
+        <div className="py-10 px-5">
+          <p>
+            lorem ipsum dolor sit amet, consectet Lorem ipsum, dolor sit amet
+            consectetur adipisicing elit. Dolores corporis eum aliquid labore
+            cupiditate accusamus.
+          </p>
+          <div className="flex flex-row justify-evenly items-center py-10">
+            <button className="bg-getButton uppercase text-sm text-white px-12 py-4 rounded-md">
+              Get Started
+            </button>
+            <button className="border border-solid border-gray-400 uppercase text-sm text-white px-12 py-4 rounded-md">
+              Learn More
+            </button>
+          </div>
+        </div>
+        <section className="flex flex-col py-10 px-5">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure est
+            sed itaque. Atque repellendus neque, ad culpa nesciunt fugiat soluta
+            sapiente doloremque velit aliquam.
+          </p>
+          <form
+            className="flex flex-col justify-center items-baseline py-3"
+            action=""
+          >
+            <div className="flex flex-row w-full justify-evenly">
+              <input
+                type="text"
+                placeholder="Name"
+                className="p-2 rounded-md border border-solid border-gray-400 outline-none w-1/2 mr-1"
+              />
+              <input
+                type="text"
+                placeholder="Email"
+                className="p-2 rounded-md border border-solid border-gray-400 outline-none w-1/2"
+              />
+            </div>
+            <textarea
+              placeholder="Message"
+              className="p-2 rounded-md border border-solid border-gray-400 m-2 h-48 w-full"
+            />
+            <button className="bg-getButton uppercase text-sm text-white px-12 py-4 rounded-md">
+              Send Message
+            </button>
+          </form>
+        </section>
+        <footer className="flex flex-col justify-center items-center py-10 px-5">
+          <div className="flex flex-row justify-evenly w-full items-center my-3">
+            Footer
+              
+          </div>
+        </footer>
       </div>
     </div>
   );
